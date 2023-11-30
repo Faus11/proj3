@@ -78,33 +78,4 @@
     </div>
   </cmdk-command>
 </div>
- <!-- 
- <cmdk-command>
-    <input cmdkInput />
-    <cmdk-list>
-      <div *cmdkEmpty>No results found.</div>
-      <cmdk-group label="Letters">
-        <button cmdkItem>a</button>
-        <button cmdkItem>b</button>
-        <cmdk-separator></cmdk-separator>
-        <button cmdkItem>c</button>
-      </cmdk-group>
-    </cmdk-list>
-  
-    <button cmdkItem>Apple</button>
-  </cmdk-command>
-  <cmdk-command (keydown)="onKeyDown($event)">
-    <input cmdkInput (input)="setSearch($event)" />
-    <ng-container *ngIf="!page">
-      <button cmdkItem (selected)="setPages('projects')">Search projects...</button>
-      <button cmdkItem (selected)="setPages('teams')">Join a team...</button>
-    </ng-container>
-    <ng-container *ngIf="page === 'projects'">
-      <button cmdkItem>Project A</button>
-      <button cmdkItem>Project B</button>
-    </ng-container>
-    <ng-container *ngIf="page === 'teams'">
-      <button cmdkItem>Team 1</button>
-      <button cmdkItem>Team 2</button>
-    </ng-container>
-  </cmdk-command> -->
+
